@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment gate way</title>
+    <style>
+        body{
+            display:flex;
+            align-content: center;
+            justify-content: center;
+            
+            color:black;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: cursive;
+
+        }
+    .container {
+       
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+.card{
+    background-color: transparent;
+    margin: 10px;
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+}
+.upi{
+    margin: 5px;
+  
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+}
+button{
+    background-color: blue;
+    width: 100px;
+    color: blanchedalmond;
+    margin: 10px auto;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 10x;
+}
+label{
+    margin: 10px;
+   
+}
+input{
+    
+    background-color: transparent;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid black;
+    border-top: 0px;
+    
+}
+option{
+    color: black;
+}
+p{
+    text-align: center;
+}
+.pay{
+    background-color: blue;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+    </style>
+</head>
+<body background="./images/Important-checklist-to-remember-while-using-money-transfer-apps.jpg">
+    <p>pay RS <span class="total">0</span></p>
+    <div class="container">
+        <h1>welcome to payment portal</h1>
+      <div class="card">
+          <label for="">card number</label>
+          <input type="text" placeholder="card number">
+          <label for="">cvv</label>
+          <input type="text" placeholder="cvv">
+          <button>get otp</button>
+          <label for="">enter OTP</label>
+          <input type="text" placeholder="otp">
+      </div>
+      <div class="upi">
+          <p>select e-wallet</p>
+          <select name="" id="">
+              <option>google pay</option>
+              <option>phone pay</option>
+              <option>paytm</option>
+
+          </select>
+          <p>or</p>
+          <input type="text" placeholder="upi id">
+        
+
+      </div>
+      <button class="pay">pay now</button>
+
+   
+
+    </div>
+   
+     
+    </script>
+</body>
+</html>
